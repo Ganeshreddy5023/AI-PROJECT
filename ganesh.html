@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual AI Doctor Assistant</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        Virtual AI Doctor Assistant - Your Health Companion
+    </header>
+
+    <div class="main-content">
+        <div class="content">
+            <h2>What is a Virtual AI Doctor Assistant?</h2>
+            <p>A Virtual AI Doctor Assistant is an intelligent digital tool designed to provide general medical guidance, health-related information, and wellness advice. It assists users in understanding symptoms, offering first-level health insights, and promoting well-being.</p>
+
+            <div class="image-container">
+                <div class="image-overlay">
+                    <img src="garden2.jpeg" alt="Virtual Doctor AI">
+                </div>
+            </div>
+
+            <p>This AI-powered assistant is not a replacement for professional medical advice, diagnosis, or treatment. However, it can be a helpful first step in navigating your health concerns and directing you toward appropriate care.</p>
+
+            <button class="button" onclick="startChat()">Chat with the AI Doctor</button>
+        </div>
+
+        <div id="chat-container">
+            <div id="chat-box">
+                <div class="message bot">Welcome to the AI Doctor Assistant! Choose your mode: Symptom Check, Wellness Tips, or General Info.</div>
+            </div>
+            <input type="text" id="user-input" placeholder="Describe your symptoms or ask a question...">
+            <button id="send-btn">Send</button>
+        </div>
+    </div>
+
+    <script>
+        function startChat() {
+            alert('Welcome to the Virtual AI Doctor Assistant! How can I help you today?');
+        }
+    </script>
+
+    <script src="https://cdn.botpress.cloud/webchat/v2.2/inject.js"></script>
+    <script src="https://files.bpcontent.cloud/2025/04/06/13/20250406133955-7FHXAO51.js"></script>
+</body>
+</html>
